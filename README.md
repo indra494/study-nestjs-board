@@ -1,6 +1,6 @@
 # nestjs를 사용하여 게시판 만들기 study
 
-## 필요기술 : nodejs, nestjs, typescript
+## 필요기술 : nodejs, nestjs, typescript, bcrypt, jwt, passport
 ## tool : vscode
 
 ## 처음 설치시
@@ -32,12 +32,14 @@
     - ParseUUIDPipe
     - DefaultValuePipe
 
+
 ## 설치라이브러리
 - 1. uuid모듈 : npm install uuid --save
 - 2. 파이프모듈 : npm install class-validator class-transformer --save
 - 3. typeOrm모듈 or Postgresql모듈 : npm install pg typeorm @nestjs/typeorm --save
 - 4. pstgresSQL : https://postgresapp.com/downloads.html
-
+- 5. bcryptjs(암호화) : npm install bcryptjs --save or npm i @types/bcrypt
+- 6. jwt모듈, passport모듈 : npm install @nestjs/jwt @nestjs/passport passport passport-jwt -save
 
 ## 참조
 - 1. 파이프 참고 url : https://github.com/typestack/class-validator#manual-validation

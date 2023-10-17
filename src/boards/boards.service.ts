@@ -12,7 +12,6 @@ export class BoardsService {
     constructor(
         @InjectRepository(Board)
         private boardRepository: Repository<Board>,
-
     ) {}
 
     async getAllBoards(): Promise<Board[]> {
