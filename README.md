@@ -3,16 +3,18 @@
 ### 필요기술 : nodejs, nestjs, typescript, typeOrm, queryBuilder, bcrypt, jwt, passport, logging, config
 ### tool : vscode
 
+***
+
 ### 처음 설치시
-<code>
-- 1 node.js 설치
+<pre>
+- 1. node.js 설치
   - https://nodejs.org/en/
   - 위 url 다운로드 후 설치
   - 설치확인 : 터미널에서 node -v
-- 2 nestjs 설치 : sudo npm i -g @nestjs/cli
-- 3 프로젝트 구성 : nest new [프로젝트명] or cd [프로젝트명] -> nest new .
-- 3 실행 : npm run start:dev
-</code>
+- 2. nestjs 설치 : sudo npm i -g @nestjs/cli
+- 3. 프로젝트 구성 : nest new [프로젝트명] or cd [프로젝트명] -> nest new .
+- 4. 실행 : npm run start:dev
+</pre>
 
 ### 학습정리
 <pre>
