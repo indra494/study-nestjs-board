@@ -4,6 +4,7 @@
 ### tool : vscode
 
 ### 처음 설치시
+<code>
 - 1 node.js 설치
   - https://nodejs.org/en/
   - 위 url 다운로드 후 설치
@@ -11,8 +12,10 @@
 - 2 nestjs 설치 : sudo npm i -g @nestjs/cli
 - 3 프로젝트 구성 : nest new [프로젝트명] or cd [프로젝트명] -> nest new .
 - 3 실행 : npm run start:dev
+</code>
 
 ### 학습정리
+<pre>
 - 1 모듈생성 : nest g module boards
 - 2 모듈컨트롤러생성 : nest g controller boards --no-spec(테스트코드생략))
 - 3 모듈서비스생성 : nest g service boards --no-spec(테스코드생략)
@@ -37,7 +40,7 @@
     - ParseArrayPipe
     - ParseUUIDPipe
     - DefaultValuePipe
-
+</pre>
 
 ### 설치라이브러리
 - 1 uuid모듈 : npm install uuid --save
